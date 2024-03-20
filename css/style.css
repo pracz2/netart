@@ -1,0 +1,167 @@
+@font-face{
+    font-family: 'Massive Retaliation';
+    src:url(font/Massive\ Retaliation.ttf);
+}
+
+@font-face {
+    font-family: 'rimouski sb';
+    src: url(font/rimouski\ sb.ttf);
+}
+
+H1{
+    font-family: 'Massive Retaliation';
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: 'rimouski sb';
+    font-size: 75px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: #FF69B4;
+    border: #87CEEB;
+    border-style: dotted;
+    border-width: 20px;
+}
+
+
+.character-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.character {
+    margin: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.character:hover {
+    transform: scale(3.2);
+}
+
+
+.next-button:hover {
+    background-color: #87CEEB;
+}
+
+body{
+    font-family: 'rimouski sb';
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6FA; /* Lavender */
+}
+
+header {
+    background-color: #FF69B4; /* Hot Pink */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #87CEEB; /* Sky Blue */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-color: #FFD700; /* Gold */
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 2000px;
+    color: #FF69B4;
+    border: #87CEEB;
+    border-style: dotted;
+    border-width: 20px;
+}
+  
+.character img {
+    max-width: 1000px;
+    border-style: dotted;
+    border-color: #87CEEB;
+    border-width: 4px;
+}
+  
+.Genevive-container {
+    display:flex;
+}
+
+.Genevive-pic {
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+}
+
+.advice1 {
+    flex: 1 1 auto; 
+    margin-top: 30px;
+}
+
+.Adaline-container {
+    display:flex;
+}
+
+.Adaline-pic {
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+}
+
+.advice1 {
+    flex: 1 1 auto; 
+    margin-top: 30px;
+}
+
+.Paisley-container {
+    display:flex;
+}
+
+.Paisley-pic {
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+}
+
+.advice2 {
+    flex: 1 1 auto; 
+    margin-top: 30px;
+}
+
+.homelink {
+    color: black;
+    text-decoration: none; /* Remove underline */
+}
